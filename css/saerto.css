@@ -64,30 +64,38 @@ body header {
   display: flex;
   background-color: whitesmoke;
 }
-body header .container1 {
+body header .container {
+  width: 176px;
   height: 100%;
   display: flex;
   align-items: center;
+  margin-left: 100px;
   vertical-align: middle;
 }
-body header .container1 .burger_menu .burger_menu_icon {
-  background-color: transparent;
-  border: none;
+body header .container a .tbc {
+  width: 176px;
+  height: 40px;
 }
-body header .container1 .burger_menu .burger_menu_icon i {
-  font-size: 25px;
-  margin-top: 5px;
-  margin-right: 20px;
-  margin-left: 10px;
-}
-body header .container1 nav ul {
+body .container1 {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0;
-  width: 550px;
+  width: 600px;
+  height: 20px;
+  margin-left: 530px;
+  margin-top: 23px;
+  vertical-align: middle;
 }
-body header .container1 nav ul li {
+body .container1 nav {
+  display: flex;
+}
+body .container1 nav i {
+  margin-top: 5px;
+  margin-left: 20px;
+}
+body .container1 nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+body .container1 nav ul li {
   display: flex;
   margin-left: 20px;
   color: #000;
@@ -99,21 +107,10 @@ body header .container1 nav ul li {
   text-transform: capitalize;
   font-family: "BPG Mikheil Stefane", sans-serif;
 }
-body header .container {
-  height: 100%;
-  display: flex;
-  align-items: center;
-  margin-left: 100px;
-  vertical-align: middle;
-}
-body header .container a .tbc {
-  width: 176px;
-  height: 40px;
-}
 body .m-photo {
   display: block;
   width: 100%;
-  height: 812px;
+  height: 812PX;
 }
 body .m-photo .bigphoto {
   position: relative;
@@ -124,7 +121,7 @@ body .m-photo .bigphoto {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  height: 700px;
+  height: 700PX;
 }
 body .m-photo h1 {
   position: absolute;
@@ -146,7 +143,8 @@ body .m-photo h2 {
   font-family: "BPG Ucnobi", sans-serif;
   color: #fff200;
 }
-body .seq-1 {
+
+.seq-1 {
   margin-top: -115px;
   width: 100%;
   height: 1057px;
@@ -154,17 +152,17 @@ body .seq-1 {
   background: linear-gradient(180deg, #cb5800 0%, rgba(0, 190, 172, 0) 100%);
   position: relative;
 }
-body .seq-1 .mshobeli {
+.seq-1 .mshobeli {
   width: 100% px;
   height: 350px;
   flex-shrink: 0;
 }
-body .seq-1 .mshobeli .text {
+.seq-1 .mshobeli .text {
   display: flex;
   justify-content: center;
   top: 157px;
 }
-body .seq-1 .mshobeli .text p {
+.seq-1 .mshobeli .text p {
   position: absolute;
   top: 157PX;
   width: 579px;
@@ -179,7 +177,7 @@ body .seq-1 .mshobeli .text p {
   line-height: 82.8%; /* 165.6px */
   font-family: "BPG Ucnobi", sans-serif;
 }
-body .seq-1 .mshobeli .text .P {
+.seq-1 .mshobeli .text .P {
   position: absolute;
   top: 295PX;
   color: #FFF;
@@ -191,21 +189,21 @@ body .seq-1 .mshobeli .text .P {
   line-height: normal;
   font-family: "BPG Ucnobi", sans-serif;
 }
-body .seq-1 .didi-div {
+.seq-1 .didi-div {
   width: 100%;
   height: 700px;
   top: 470px;
 }
-body .seq-1 .didi-div .shvili-div {
+.seq-1 .didi-div .shvili-div {
   display: flex;
   justify-content: space-around;
 }
-body .seq-1 .didi-div .shvili-div .image-div {
+.seq-1 .didi-div .shvili-div .image-div {
   position: relative;
   width: 310px;
   height: 553px;
 }
-body .seq-1 .didi-div .shvili-div .image-div .div-image-text {
+.seq-1 .didi-div .shvili-div .image-div .div-image-text {
   position: absolute;
   top: 380px;
   left: 70px;
@@ -217,10 +215,31 @@ body .seq-1 .didi-div .shvili-div .image-div .div-image-text {
   font-weight: 900;
   line-height: normal;
 }
-body .seq-1 .didi-div .shvili-div .image-div .div-image {
+.seq-1 .didi-div .shvili-div .image-div .div-image {
   width: 310px;
   height: 553px;
   top: 1398px;
   left: 70px;
   border-radius: 10px;
+}
+
+body footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: contain;
+}
+body footer .footer {
+  width: 1500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  object-fit: contain;
 }/*# sourceMappingURL=saerto.css.map */
