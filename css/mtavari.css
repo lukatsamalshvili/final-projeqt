@@ -24,6 +24,7 @@ body header .container1 nav ul {
   justify-content: space-around;
 }
 body header .container1 nav ul li {
+  display: flex;
   margin-left: 20px;
   color: #000;
   text-align: right;
@@ -70,6 +71,7 @@ body .m-photo h1 {
   font-weight: 400;
   line-height: 150px;
   font-family: "BPG Ucnobi", sans-serif;
+  color: #fff200;
 }
 body .m-photo h2 {
   position: absolute;
@@ -79,15 +81,83 @@ body .m-photo h2 {
   font-weight: 400;
   line-height: 150px;
   font-family: "BPG Ucnobi", sans-serif;
+  color: #fff200;
 }
 body .seq-1 {
   margin-top: -115px;
   width: 100%;
   height: 1057px;
+  border-top: rgba(255, 255, 255, 0.4);
+  background: linear-gradient(180deg, #cb5800 0%, rgba(0, 190, 172, 0) 100%);
+  position: relative;
 }
 body .seq-1 .mshobeli {
+  width: 100% px;
+  height: 350px;
+  flex-shrink: 0;
+}
+body .seq-1 .mshobeli .text {
   display: flex;
-  height: 1057px;
-  border-top: rgba(255, 255, 255, 0.4);
-  background: linear-gradient(180deg, #6f1c07 0%, rgba(0, 190, 172, 0) 100%);
+  justify-content: center;
+  top: 157px;
+}
+body .seq-1 .mshobeli .text p {
+  position: absolute;
+  top: 157PX;
+  width: 579px;
+  height: 92px;
+  flex-shrink: 0;
+  color: #ffffff;
+  text-align: center;
+  font-family: Smith Allison;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 82.8%; /* 165.6px */
+  font-family: "BPG Ucnobi", sans-serif;
+}
+body .seq-1 .mshobeli .text .P {
+  position: absolute;
+  top: 295PX;
+  color: #FFF;
+  text-align: center;
+  font-family: Circular Std;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-family: "BPG Ucnobi", sans-serif;
+}
+body .seq-1 .didi-div {
+  width: 100%;
+  height: 700px;
+  top: 470px;
+}
+body .seq-1 .didi-div .shvili-div {
+  display: flex;
+  justify-content: space-around;
+}
+body .seq-1 .didi-div .shvili-div .image-div {
+  position: relative;
+  width: 310px;
+  height: 553px;
+}
+body .seq-1 .didi-div .shvili-div .image-div .div-image-text {
+  position: absolute;
+  top: 380px;
+  left: 70px;
+  color: #FFF;
+  text-align: center;
+  font-family: Circular Std;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+body .seq-1 .didi-div .shvili-div .image-div .div-image {
+  width: 310px;
+  height: 553px;
+  top: 1398px;
+  left: 70px;
+  border-radius: 10px;
 }/*# sourceMappingURL=mtavari.css.map */
