@@ -5,23 +5,27 @@ body header {
   background-color: whitesmoke;
 }
 body header .container1 {
+  height: 100%;
   display: flex;
-  width: 600px;
-  height: 20px;
-  margin-left: 530px;
-  margin-top: 23px;
+  align-items: center;
   vertical-align: middle;
 }
-body header .container1 nav {
-  display: flex;
+body header .container1 .burger_menu .burger_menu_icon {
+  background-color: transparent;
+  border: none;
 }
-body header .container1 nav i {
+body header .container1 .burger_menu .burger_menu_icon i {
+  font-size: 25px;
   margin-top: 5px;
-  margin-left: 20px;
+  margin-right: 20px;
+  margin-left: 10px;
 }
 body header .container1 nav ul {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  width: 550px;
 }
 body header .container1 nav ul li {
   display: flex;
@@ -36,10 +40,9 @@ body header .container1 nav ul li {
   font-family: "BPG Mikheil Stefane", sans-serif;
 }
 body header .container {
-  width: 176px;
-  height: 40px;
+  height: 100%;
   display: flex;
-  margin-top: 18px;
+  align-items: center;
   margin-left: 100px;
   vertical-align: middle;
 }
@@ -50,7 +53,7 @@ body header .container a .tbc {
 body .m-photo {
   display: block;
   width: 100%;
-  height: 812PX;
+  height: 812px;
 }
 body .m-photo .bigphoto {
   position: relative;
@@ -60,8 +63,9 @@ body .m-photo .bigphoto {
   flex-direction: column;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center right;
   width: 100%;
-  height: 700PX;
+  height: 700px;
 }
 body .m-photo h1 {
   position: absolute;
