@@ -58,13 +58,13 @@ table {
   box-sizing: border-box;
 }
 
-header {
+body header {
   width: 100%;
   height: 85px;
   display: flex;
   background-color: whitesmoke;
 }
-header .container {
+body header .container {
   width: 176px;
   height: 100%;
   display: flex;
@@ -72,12 +72,11 @@ header .container {
   margin-left: 100px;
   vertical-align: middle;
 }
-header .container a .tbc {
+body header .container a .tbc {
   width: 176px;
   height: 40px;
 }
-
-.container1 {
+body .container1 {
   display: flex;
   width: 600px;
   height: 20px;
@@ -85,18 +84,18 @@ header .container a .tbc {
   margin-top: 23px;
   vertical-align: middle;
 }
-.container1 nav {
+body .container1 nav {
   display: flex;
 }
-.container1 nav i {
+body .container1 nav i {
   margin-top: 5px;
   margin-left: 20px;
 }
-.container1 nav ul {
+body .container1 nav ul {
   display: flex;
   justify-content: space-around;
 }
-.container1 nav ul li {
+body .container1 nav ul li {
   display: flex;
   margin-left: 20px;
   color: #000;
@@ -107,4 +106,42 @@ header .container a .tbc {
   line-height: normal;
   text-transform: capitalize;
   font-family: "BPG Mikheil Stefane", sans-serif;
+}
+body .seq-1 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 595px;
+  background-color: rgba(144, 73, 6, 0.6784313725);
+}
+body .seq-1 .header-photo {
+  width: 1300px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+body .seq-1 .header-photo h1 {
+  position: absolute;
+  color: #fefefe;
+  text-align: center;
+  text-shadow: 0px 27px 5px 0px rgb(157, 92, 0);
+  font-family: Circular Std;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  text-transform: lowercase;
+  top: 200px;
+}
+body .seq-1 .header-photo .text {
+  position: absolute;
+  font-size: 40px;
+  top: 300px;
+}
+body .seq-1 .header-photo .blokebi {
+  width: 1300px;
+  height: 500px;
+  border-radius: 20px;
 }/*# sourceMappingURL=saerto1.css.map */
