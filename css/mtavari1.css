@@ -1,5 +1,5 @@
 body header {
-  width: 100%;
+  width: 1499px;
   height: 85px;
   display: flex;
   background-color: whitesmoke;
@@ -49,7 +49,7 @@ body .container1 nav ul li {
 }
 body .seq-1 {
   display: flex;
-  width: 100%;
+  width: 1499px;
   justify-content: center;
   height: 595px;
   background-color: rgba(144, 73, 6, 0.6784313725);
@@ -73,7 +73,7 @@ body .seq-1 .header-photo h1 {
   line-height: normal;
   letter-spacing: -0.4px;
   text-transform: lowercase;
-  top: 200px;
+  top: 190px;
 }
 body .seq-1 .header-photo .text {
   position: absolute;
@@ -84,4 +84,108 @@ body .seq-1 .header-photo .blokebi {
   width: 1300px;
   height: 500px;
   border-radius: 20px;
+}
+body .seq-2 {
+  display: flex;
+}
+body .seq-2 .mshobeli p {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 10px;
+  margin-left: 180px;
+  margin-top: 50px;
+  font-family: "BPG Arial Caps", sans-serif;
+  width: 547px;
+}
+body .seq-2 .mshobeli h3 {
+  color: #565656;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-left: 180px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+body .seq-2 .mshobeli .shetavazebebi {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 165px;
+  width: 547px;
+  justify-content: space-around;
+}
+body .seq-2 .mshobeli .shetavazebebi .image {
+  width: 65px;
+  height: 65px;
+}
+body .seq-2 .mshobeli .shetavazebebi h2 {
+  display: flex;
+  font-weight: 800px;
+  font-size: 14px;
+  margin-left: 25px;
+}
+body .seq-2 .mshobeli2 {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 150px;
+  border-radius: 10px;
+  border: 1px solid #E5E5E5;
+  height: 130px;
+}
+body .seq-2 .mshobeli2 .min-box {
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+}
+body .seq-2 .mshobeli2 .min-box h3 {
+  color: #565656;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+body .seq-2 .mshobeli2 .min-box .icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 70px;
+}
+body .seq-2 .mshobeli2 .min-box h4 {
+  color: #565656;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-top: 7px;
+  margin-right: 80px;
+}
+body .seq-2 .photo-3 {
+  margin-top: 80px;
+}
+body .seq-2 .photo-3 .footwine {
+  width: 504px;
+  height: 194px;
+  border-radius: 10px;
+}
+body .seq-2 .h-3-photos {
+  display: flex;
+  justify-content: space-around;
+}
+body .seq-2 .photowine {
+  width: 250px;
+  height: 194px;
+  border-radius: 10px;
+}
+
+body footer {
+  margin-top: 150px;
+}
+body footer .footer {
+  width: 1500px;
 }/*# sourceMappingURL=mtavari1.css.map */

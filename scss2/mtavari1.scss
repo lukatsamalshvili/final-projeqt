@@ -1,6 +1,6 @@
 body{
 header {
-    width: 100%;
+    width: 1499px;
     height: 85px;
     display: flex;
     background-color: whitesmoke;
@@ -58,7 +58,7 @@ header {
               
        .seq-1{
         display: flex;
-        width: 100%;
+        width: 1499px;
         justify-content: center;
         height: 595px;
         background-color: #904906ad;
@@ -80,7 +80,7 @@ header {
             line-height: normal;
             letter-spacing: -0.4px;
             text-transform: lowercase;
-            top: 200px;
+            top: 190px;
           }
           .text{
             position: absolute;
@@ -97,5 +97,140 @@ header {
 
         }
 
-       }     
+       }   
+       .seq-2{
+        display: flex;
+        
+        
+        .mshobeli{
+          p{
+            font-weight: 800;
+            font-size: 20px;
+            line-height: 10px;
+            margin-left: 180px;
+            margin-top: 50px;
+            font-family: "BPG Arial Caps", sans-serif;
+            width: 547px;
+          }
+          h3{
+            color: #565656;
+            font-family: Roboto;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            text-transform: uppercase;
+            margin-left: 180px;
+            margin-top: 50px;
+            margin-bottom: 30px;
+           
+
+          }
+
+          .shetavazebebi{
+            display: flex;
+            margin-top: 20px;
+            margin-left: 165px;
+            width: 547px;
+            justify-content: space-around;
+            .image{
+              width: 65px;
+              height: 65px;
+            }
+            h2{
+              display: flex;
+              font-weight: 800px;
+              font-size: 14px;
+              margin-left: 25px;
+            }
+          }
+
+        }
+        .mshobeli2{ display: flex;
+          margin-top: 50px;
+          margin-left: 150px;
+           border-radius:10px ;
+            border: 1px solid #E5E5E5;
+            height: 130px;
+          .min-box{
+            width: 500px ;
+            display: flex;
+            justify-content: space-around;
+            
+            h3{
+              color: #565656;
+              font-family: Roboto;
+              font-size: 12px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: normal;
+              text-transform: uppercase;
+              margin-top: 20px;
+              margin-bottom: 30px;
+              
+            }
+            .icon{
+              width: 30px;
+              height: 30px;
+              margin-right: 70px;
+            }
+            h4{
+              color: #565656;
+              font-size: 12px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: normal;
+              text-transform: uppercase;
+              margin-top: 7px;
+              margin-right: 80px;
+            
+              
+            }
+
+          }
+        }
+        .photo-3{
+          margin-top: 80px;
+          .footwine{
+            width: 504px;
+            height: 194px;
+            border-radius: 10px;
+          }
+        }
+       .h-3-photos{
+        display: flex;
+        justify-content: space-around;}
+        .photowine{
+          width: 250px;
+          height: 194px;
+          border-radius: 10px;
+        }
+       
+       }  
+
+}
+body{
+  footer{
+    margin-top: 150px;
+            
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    // flex-direction: column;
+    // background-size: cover;
+    // background-repeat: no-repeat;
+    // object-fit: contain;
+  .footer{
+    
+    width: 1500px;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    // flex-direction: column;
+    // background-size: cover;
+    // background-repeat: no-repeat;
+    // object-fit: contain;
+    // object-fit: contain;
+  }
+}
 }
