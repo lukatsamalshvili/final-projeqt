@@ -1,0 +1,172 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(180deg, #fcf8f5 0%, rgb(222, 103, 23) 100%);
+  height: 100%;
+  background-size: cover;
+}
+body header {
+  width: 100%;
+  height: 200px;
+}
+body header .container1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+body header .container1 p {
+  flex-shrink: 0;
+  color: #be8500;
+  font-size: 80px;
+  font-weight: 900;
+  font-family: "ALK Life", sans-serif;
+}
+body section {
+  display: flex;
+}
+body section .first-photo {
+  display: flex;
+  width: 342px;
+  height: 710px;
+  margin-left: 70px;
+  margin-top: 100px;
+}
+body section .first-photo .bari {
+  position: relative;
+  width: 342px;
+  height: 710px;
+  border-radius: 10px;
+}
+body section .first-photo p {
+  top: 750px;
+  position: absolute;
+  left: 200px;
+  color: #FFF;
+  font-size: 30px;
+  font-weight: 900;
+}
+body section .secnd-photo {
+  display: flex;
+  justify-content: space-around;
+  width: 900px;
+  height: 460px;
+  margin-top: 100px;
+  margin-left: 20px;
+}
+body section .secnd-photo .cerasabiznes {
+  border-radius: 15px;
+  width: 459px;
+  height: 345px;
+  margin-right: 20px;
+}
+body section .secnd-photo p {
+  top: 600px;
+  position: absolute;
+  left: 560px;
+  color: #FFF;
+  font-size: 30px;
+  font-weight: 900;
+  width: 200px;
+  height: 40px;
+}
+body section .secnd-photo .p {
+  width: 200px;
+  height: 40px;
+  top: 600px;
+  position: absolute;
+  left: 1050px;
+  color: #FFF;
+  font-size: 30px;
+  font-weight: 900;
+}
+body section .last-photo {
+  margin-top: 450px;
+  width: 888px;
+  height: 360px;
+}
+body section .last-photo .bolophoto {
+  width: 888px;
+  height: 360px;
+  border-radius: 15px;
+  margin-left: -900px;
+}
+body section .last-photo p {
+  top: 970px;
+  position: absolute;
+  left: 820px;
+  color: #FFF;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+body footer {
+  margin-top: 21px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: contain;
+}
+body footer .footer {
+  width: 100%;
+}/*# sourceMappingURL=saerto2.css.map */

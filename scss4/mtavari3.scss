@@ -1,0 +1,186 @@
+body{
+
+
+header {
+    width: 1499px;
+    height: 85px;
+    display: flex;
+    
+    .container {
+      width: 176px;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      margin-left: 100px;
+      vertical-align: middle;
+
+      a {
+        .tbc {
+          width: 176px;
+          height: 40px;
+        }
+      }
+    }
+
+  
+      
+        .container1{
+            display: flex;
+            width: 600px;
+            height: 20px;
+            margin-left: 530px;
+            margin-top: 23px;
+            vertical-align: middle;
+
+            nav{
+                display: flex;
+                i{
+                   margin-top: 5px;
+                    margin-left: 20px;
+                    
+                }
+                
+                ul{
+                    display: flex;
+                    justify-content: space-around;
+                    li{
+                        display: flex;
+                       margin-left: 20px ;
+                       color: #000;
+                       text-align: right;
+                       font-size: 18px;
+                       font-style: normal;
+                       font-weight: 500;
+                       line-height: normal;
+                       text-transform: capitalize;
+                       font-family: "BPG Mikheil Stefane", sans-serif;
+                    }
+                   }
+                }
+              }
+            
+            }
+            .first{
+                .heaer{
+                     display: flex;
+                     width: 600px;
+                     height: 20px;
+                     margin-left: 150px;
+                     margin-top: 150px;
+                     vertical-align: middle;
+                    nav{
+                        display: flex;
+                        ul{
+                            display: flex;
+                            justify-content: space-around;
+                            width: 600px;
+                            height: 20px;
+                            li{
+                                display: flex;
+                                margin-left: 20px ;
+                               
+                                text-align: right;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 500;
+                                line-height: normal;
+                                text-transform: capitalize;
+                                
+                            }
+                        }
+                    }
+                }
+            }
+        .photos{ display: flex;
+
+        
+            .photo{ display: flex;
+                margin-top: 100px;
+                margin-left: 130px;
+                .main-photo{
+                    width: 310px;
+                    height: 553px;
+                    border-radius: 10px;
+                }
+                h1{
+                    margin-top: 400px;
+                    margin-left: 67px;
+                    position: absolute;
+                    color: #FFF;
+                    text-align: center;
+                    font-size: 40px;
+                    font-weight: 900;
+                    line-height: normal;
+
+                }
+            }
+            .min-photo{
+                margin-top: 121px;
+                margin-left: 64px;
+                .photomain{
+                    width: 194px;
+                    height: 202px;
+                    border-radius: 10.6528031826019287px;
+                    
+
+                }
+                .girebulebebi{
+                    margin-top: 50px;
+                    width: 504px;
+                    height: 176px;
+                    border-radius: 10px;
+                    border: 1px solid #E5E5E5;
+                    background: #F5FFFE;
+                    p{ 
+                        color: #0d0909;
+                        text-align: center;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 900;
+                        line-height: normal;
+
+                    }
+                    .small{
+                        display: flex;
+                        width: 300px;
+                        height: 20px;
+                        justify-content: space-around;
+                        p{ 
+                            margin-left: 200px;
+                            color: rgba(0, 0, 0, 0.40);
+                            font-family: Circular Std;
+                            font-size: 12px;
+                            font-style: normal;
+                            font-weight: 900;
+                            line-height: 145.187%; 
+                            text-transform: uppercase;
+                        }
+                        
+                    }
+                    .smal{
+                        display: flex;
+                        width: 500px;
+                        height: 20px;
+                        justify-content: space-around;
+                        p{
+                            font-size: 20px;
+                            color: rgb(11, 11, 10);
+                            margin-top: 30px;
+                        }
+
+                    }
+
+                    
+
+                }
+            }
+            input[type=submit] {
+                width: 100px ;
+                height: 50px;
+                margin-top: 20px;
+                background: #d5fffb;
+                border: 1px solid #E5E5E5;
+                border-radius: 10%;
+            }
+        }
+    }
