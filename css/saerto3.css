@@ -59,7 +59,7 @@ table {
 }
 
 body header {
-  width: 1499px;
+  width: 1480px;
   height: 85px;
   display: flex;
 }
@@ -155,6 +155,7 @@ body .photos .photo h1 {
   font-size: 40px;
   font-weight: 900;
   line-height: normal;
+  width: 90px;
 }
 body .photos .min-photo {
   margin-top: 121px;
