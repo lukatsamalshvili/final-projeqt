@@ -1,10 +1,12 @@
 body{
-
+    
+    
 
 header {
     width: 1480px;
     height: 85px;
     display: flex;
+    color: whitesmoke;
     
     .container {
       width: 176px;
@@ -60,16 +62,30 @@ header {
               }
             
             }
-            .first{
+
+
+            
+            .first{ 
+                width: 100%;
+                height: 800px;
+
+                background-image: url(../image/fpminiparal1.jpg);
+            
+               
+                
                 .heaer{
+                     
                      display: flex;
                      width: 600px;
                      height: 20px;
                      margin-left: 150px;
-                     margin-top: 150px;
+                     
+                    
                      vertical-align: middle;
                     nav{
                         display: flex;
+                        margin-top: 60px;
+                       
                         ul{
                             display: flex;
                             justify-content: space-around;
@@ -78,7 +94,6 @@ header {
                             li{
                                 display: flex;
                                 margin-left: 20px ;
-                               
                                 text-align: right;
                                 font-size: 18px;
                                 font-style: normal;
@@ -92,6 +107,7 @@ header {
                 }
             }
         .photos{ display: flex;
+            margin-top: 60px;
 
         
             .photo{ display: flex;
@@ -106,7 +122,7 @@ header {
                     margin-top: 400px;
                     margin-left: 67px;
                     position: absolute;
-                    color: #FFF;
+                    color: #ffffff;
                     text-align: center;
                     font-size: 40px;
                     font-weight: 900;
@@ -184,4 +200,70 @@ header {
                 border-radius: 10%;
             }
         }
+    
     }
+    body{
+        .footer{
+            background-color: #24262b;
+            padding: 70px 0;
+            box-sizing: border-box;
+           
+           
+            .conteiner{
+                max-width: 1170px;
+                
+                margin: auto;
+                .row{
+                    display: flex;
+                    flex-wrap: wrap;
+                    .footer-col{
+                        width: 25%;
+                        padding: 0 15px;
+                        
+                        h4{
+                            font-size: 18px;
+                            color: #ffffff;
+                            text-transform: capitalize;
+                            margin-bottom: 30px;
+                            font-weight: 400;
+                            position: relative;
+                        }
+                        ul{
+                            li:not(:last-child){
+                                margin-bottom: 10px;
+                                
+                                a{
+                                    font-size: 16px;
+                                    text-transform: capitalize;
+                                    color: #ffffff;
+                                    text-decoration: none;
+                                    font-weight: 300;
+                                    color: #bbbbbb;
+                                    display: block;
+                                    transition: all 0.3s ease;
+                                    
+                                   
+                                }
+                                
+      
+                            }
+                        }
+                        
+                        
+                    }
+                    .social{
+                        display: inline-block;
+                        height: 40px;
+                        width: 40px;
+                        background-color: gray;
+                        margin: 0 10px 10px 0;
+                        text-align: center;
+                        line-height: 40px;
+                        border-radius: 50%;
+                        color: #ffffff;
+                        transition: all 0.5s;
+                    }
+                }
+            }
+        }
+      }

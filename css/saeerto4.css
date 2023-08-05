@@ -59,10 +59,10 @@ table {
 }
 
 body header {
-  width: 1480px;
+  width: 100%;
   height: 85px;
   display: flex;
-  color: whitesmoke;
+  background-color: whitesmoke;
 }
 body header .container {
   width: 176px;
@@ -76,7 +76,7 @@ body header .container a .tbc {
   width: 176px;
   height: 40px;
 }
-body header .container1 {
+body .container1 {
   display: flex;
   width: 600px;
   height: 20px;
@@ -84,18 +84,18 @@ body header .container1 {
   margin-top: 23px;
   vertical-align: middle;
 }
-body header .container1 nav {
+body .container1 nav {
   display: flex;
 }
-body header .container1 nav i {
+body .container1 nav i {
   margin-top: 5px;
   margin-left: 20px;
 }
-body header .container1 nav ul {
+body .container1 nav ul {
   display: flex;
   justify-content: space-around;
 }
-body header .container1 nav ul li {
+body .container1 nav ul li {
   display: flex;
   margin-left: 20px;
   color: #000;
@@ -107,122 +107,48 @@ body header .container1 nav ul li {
   text-transform: capitalize;
   font-family: "BPG Mikheil Stefane", sans-serif;
 }
-body .first {
+body .m-photo {
+  display: block;
   width: 100%;
-  height: 800px;
-  background-image: url(../image/fpminiparal1.jpg);
+  height: 700PX;
 }
-body .first .heaer {
+body .m-photo .bigphoto {
+  position: relative;
   display: flex;
-  width: 600px;
-  height: 20px;
-  margin-left: 150px;
-  vertical-align: middle;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 700PX;
 }
-body .first .heaer nav {
-  display: flex;
-  margin-top: 60px;
-}
-body .first .heaer nav ul {
-  display: flex;
-  justify-content: space-around;
-  width: 600px;
-  height: 20px;
-}
-body .first .heaer nav ul li {
-  display: flex;
-  margin-left: 20px;
-  text-align: right;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  text-transform: capitalize;
-}
-body .photos {
-  display: flex;
-  margin-top: 60px;
-}
-body .photos .photo {
-  display: flex;
-  margin-top: 100px;
-  margin-left: 130px;
-}
-body .photos .photo .main-photo {
-  width: 310px;
-  height: 553px;
-  border-radius: 10px;
-}
-body .photos .photo h1 {
-  margin-top: 400px;
-  margin-left: 67px;
+body .m-photo h1 {
   position: absolute;
-  color: #ffffff;
-  text-align: center;
-  font-size: 40px;
-  font-weight: 900;
-  line-height: normal;
-  width: 90px;
+  top: 420px;
+  left: 113px;
+  font-size: 100px;
+  font-weight: 400;
+  line-height: 150px;
+  font-family: "BPG Ucnobi", sans-serif;
+  color: #fbfbfb;
 }
-body .photos .min-photo {
-  margin-top: 121px;
-  margin-left: 64px;
-}
-body .photos .min-photo .photomain {
-  width: 194px;
-  height: 202px;
-  border-radius: 10.6528031826px;
-}
-body .photos .min-photo .girebulebebi {
-  margin-top: 50px;
-  width: 504px;
-  height: 176px;
-  border-radius: 10px;
-  border: 1px solid #E5E5E5;
-  background: #F5FFFE;
-}
-body .photos .min-photo .girebulebebi p {
-  color: #0d0909;
-  text-align: center;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 900;
-  line-height: normal;
-}
-body .photos .min-photo .girebulebebi .small {
+
+body .text {
   display: flex;
-  width: 300px;
-  height: 20px;
-  justify-content: space-around;
+  width: 100%;
+  height: 200px;
+  justify-content: center;
 }
-body .photos .min-photo .girebulebebi .small p {
-  margin-left: 200px;
-  color: rgba(0, 0, 0, 0.4);
-  font-family: Circular Std;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 900;
-  line-height: 145.187%;
-  text-transform: uppercase;
-}
-body .photos .min-photo .girebulebebi .smal {
-  display: flex;
-  width: 500px;
-  height: 20px;
-  justify-content: space-around;
-}
-body .photos .min-photo .girebulebebi .smal p {
-  font-size: 20px;
-  color: rgb(11, 11, 10);
-  margin-top: 30px;
-}
-body .photos input[type=submit] {
-  width: 100px;
+body .text h2 {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 150px;
+  font-family: "BPG Ucnobi", sans-serif;
+  color: #6a6a6a;
   height: 50px;
-  margin-top: 20px;
-  background: #d5fffb;
-  border: 1px solid #E5E5E5;
-  border-radius: 10%;
+  display: flex;
+  justify-content: center;
 }
 
 body .footer {
@@ -274,4 +200,4 @@ body .footer .conteiner .row .social {
   border-radius: 50%;
   color: #ffffff;
   transition: all 0.5s;
-}/*# sourceMappingURL=saerto3.css.map */
+}/*# sourceMappingURL=saeerto4.css.map */

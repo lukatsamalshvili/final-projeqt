@@ -1,127 +1,229 @@
-body{
-    background: linear-gradient(180deg, #fcf8f5 0%, rgb(222, 103, 23) 100%);
-    height: 100%;
-    background-size: cover;
+body{         background-color: whitesmoke;
+
     
-    
-    header{
+    header {
         width: 100%;
-        height: 200px;
-
-        .container1{
-            display: flex;
-            justify-content: center;
-             margin-top: 100px;
-            p{
-               
-                flex-shrink: 0;
-                color: #be8500;
-                font-size: 80px;
-                font-weight: 900;
-                font-family: "ALK Life", sans-serif;
-            }
-        }
-    }
-    section{
+        height: 85px;
         display: flex;
-        .first-photo{
+        background-color: whitesmoke;
+        .container {
+          width: 176px;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          margin-left: 100px;
+          vertical-align: middle;
+    
+          a {
+            .tbc {
+              width: 176px;
+              height: 40px;
+            }
+          }
+        }
+      }
+          
+            .container1{
+                display: flex;
+                width: 600px;
+                height: 20px;
+                margin-left: 530px;
+                margin-top: 23px;
+                vertical-align: middle;
+    
+                nav{
+                    display: flex;
+                    i{
+                       margin-top: 5px;
+                        margin-left: 20px;
+                        
+                    }
+                    
+                    ul{
+                        display: flex;
+                        justify-content: space-around;
+                        li{
+                            display: flex;
+                           margin-left: 20px ;
+                           color: #000;
+                           text-align: right;
+                           font-size: 18px;
+                           font-style: normal;
+                           font-weight: 500;
+                           line-height: normal;
+                           text-transform: capitalize;
+                           font-family: "BPG Mikheil Stefane", sans-serif;
+                        }
+                       }
+                    }
+            }
+            .sectionbig{ background-image: url(../image/fpminiparal1.jpg);
+                width: 100%;
+                       .head{
+                h1{
+                   
+                    display: flex;
+                    justify-content: center;
+                    color: white;
+
+                }
+            }
+            
+        }
+        section{
             display: flex;
-            width: 342px;
-            height: 710px;
-            margin-left: 70px;
-            margin-top: 100px;
+            height: 1000px;
+            
+            
 
 
-            .bari{
-               
-                position: relative;
+            .first-photo{
+                display: flex;
                 width: 342px;
                 height: 710px;
-                border-radius: 10px;
-            }
-            p{
-                
-                 top: 750px;
-               position: absolute;
-                left: 200px;
-                color: #FFF;
-                font-size: 30px;
-                font-weight: 900;
-                
-            }
-        }
-        .secnd-photo{
-            display: flex;
-            justify-content: space-around;
-            width: 900px;
-            height: 460px;
-            margin-top: 100px;
-            margin-left: 20px;
-            
-            .cerasabiznes{
-                border-radius: 15px;
-                width: 459px;
-                height: 345px;
-                margin-right: 20px;                                                          
-            }
-            p{
-                 top: 600px;
-                 position: absolute;
-                 left: 560px;
-                 color: #FFF;
-                 font-size: 30px;
-                 font-weight: 900;
-                 width: 200px;
-                 height: 40px;
-            }
-            .p{
-                width: 200px;
-                height: 40px;
-                 top: 600px;
-                 position: absolute;
-                 left: 1050px;
-                 color: #FFF;
-                 font-size: 30px;
-                 font-weight: 900;
-            }
-        }
-        .last-photo{
-           margin-top: 450px;
-            width: 888px;
-            height: 360px;
-            .bolophoto{
-                width: 888px;
-                height: 360px;
-                border-radius: 15px;
-                margin-left: -900px;
-            }
-            p{
-                 top: 970px;
-                 position: absolute;
-                 left: 820px;
-                 color: #FFF;
-                 font-size: 30px;
-                 font-weight: 900;
-            }
-        }
-    }
-}
-body{
-    footer{
+                margin-left: 70px;
+                margin-top: 100px;
         
-        margin-top: 21px;
-              
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      background-size: cover;
-      background-repeat: no-repeat;
-      object-fit: contain;
-    .footer{
-      
-      
-      width: 100%;
-    }
-  }
-  }
+        
+                .bari{
+                   
+                    position: relative;
+                    width: 342px;
+                    height: 710px;
+                    border-radius: 10px;
+                }
+                p{
+                    
+                     margin-top: 350px;
+                     position: absolute;
+                    margin-left: 130px;
+                    color: #ffffff;
+                    font-size: 30px;
+                    font-weight: 900;
+                    
+                }}
+
+            
+            .secnd-photo{
+                display: flex;
+                justify-content: space-around;
+                width: 900px;
+                height: 460px;
+                margin-top: 100px;
+                margin-left: 50px;
+                
+                .cerasabiznes{
+                    border-radius: 15px;
+                    width: 459px;
+                    height: 345px;
+                    margin-right: 20px;                                                          
+                }
+                p{
+                     margin-top: 150px;
+                     position: absolute;
+                     margin-right: 430px;
+                     color: #ffffff;
+                     font-size: 25px;
+                     font-weight: 900;
+                     width: 200px;
+                     height: 40px;
+                }
+                .p{
+                    width: 200px;
+                    height: 40px;
+                     margin-top:140px;
+                     position: absolute;
+                     margin-left: 960px;
+                     color: #ffffff;
+                     font-size: 30px;
+                     font-weight: 900;
+                }
+            }
+            .last-photo{
+                display: flex;
+               margin-top: 450px;
+                width: 950px;
+                height: 360px;
+                margin-left: -930px;
+                .bolophoto{
+                    width: 950px;
+                    height: 360px;
+                    border-radius: 15px;
+                    
+                }
+                p{
+                    position: absolute;
+                     margin-top: 180px ; 
+                     margin-left: 380px;
+                     color: #ffffff;
+                     font-size: 30px;
+                     font-weight: 900;
+                }
+            }
+        }}
+        body{
+            .footer{
+                background-color: #24262b;
+                padding: 70px 0;
+                box-sizing: border-box;
+                width: 100%;
+               
+                .conteiner{
+                    max-width: 1170px;
+                    
+                    margin: auto;
+                    .row{
+                        display: flex;
+                        flex-wrap: wrap;
+                        .footer-col{
+                            width: 25%;
+                            padding: 0 15px;
+                            
+                            h4{
+                                font-size: 18px;
+                                color: #ffffff;
+                                text-transform: capitalize;
+                                margin-bottom: 30px;
+                                font-weight: 400;
+                                position: relative;
+                            }
+                            ul{
+                                li:not(:last-child){
+                                    margin-bottom: 10px;
+                                    
+                                    a{
+                                        font-size: 16px;
+                                        text-transform: capitalize;
+                                        color: #ffffff;
+                                        text-decoration: none;
+                                        font-weight: 300;
+                                        color: #bbbbbb;
+                                        display: block;
+                                        transition: all 0.3s ease;
+                                        
+                                       
+                                    }
+                                    
+
+                                }
+                            }
+                            
+                            
+                        }
+                        .social{
+                            display: inline-block;
+                            height: 40px;
+                            width: 40px;
+                            background-color: gray;
+                            margin: 0 10px 10px 0;
+                            text-align: center;
+                            line-height: 40px;
+                            border-radius: 50%;
+                            color: #ffffff;
+                            transition: all 0.5s;
+                        }
+                    }
+                }
+            }
+        }
+    

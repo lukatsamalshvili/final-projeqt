@@ -2,6 +2,7 @@ body header {
   width: 1480px;
   height: 85px;
   display: flex;
+  color: whitesmoke;
 }
 body header .container {
   width: 176px;
@@ -46,16 +47,21 @@ body header .container1 nav ul li {
   text-transform: capitalize;
   font-family: "BPG Mikheil Stefane", sans-serif;
 }
+body .first {
+  width: 100%;
+  height: 800px;
+  background-image: url(../image/fpminiparal1.jpg);
+}
 body .first .heaer {
   display: flex;
   width: 600px;
   height: 20px;
   margin-left: 150px;
-  margin-top: 150px;
   vertical-align: middle;
 }
 body .first .heaer nav {
   display: flex;
+  margin-top: 60px;
 }
 body .first .heaer nav ul {
   display: flex;
@@ -75,6 +81,7 @@ body .first .heaer nav ul li {
 }
 body .photos {
   display: flex;
+  margin-top: 60px;
 }
 body .photos .photo {
   display: flex;
@@ -90,7 +97,7 @@ body .photos .photo h1 {
   margin-top: 400px;
   margin-left: 67px;
   position: absolute;
-  color: #FFF;
+  color: #ffffff;
   text-align: center;
   font-size: 40px;
   font-weight: 900;
@@ -156,4 +163,55 @@ body .photos input[type=submit] {
   background: #d5fffb;
   border: 1px solid #E5E5E5;
   border-radius: 10%;
+}
+
+body .footer {
+  background-color: #24262b;
+  padding: 70px 0;
+  box-sizing: border-box;
+}
+body .footer .conteiner {
+  max-width: 1170px;
+  margin: auto;
+}
+body .footer .conteiner .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+body .footer .conteiner .row .footer-col {
+  width: 25%;
+  padding: 0 15px;
+}
+body .footer .conteiner .row .footer-col h4 {
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  font-weight: 400;
+  position: relative;
+}
+body .footer .conteiner .row .footer-col ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+body .footer .conteiner .row .footer-col ul li:not(:last-child) a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+body .footer .conteiner .row .social {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: gray;
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s;
 }/*# sourceMappingURL=mtavari3.css.map */
